@@ -19,4 +19,9 @@ class Home extends MY_Controller {
 		$this->load->view('service');
 		$this->load->view('footer');
 	}
+	public function artikel(){
+		$this->load->view('header_stl');
+		$this->load->view('artikel');
+		$this->load->view('footer');
+	}
 }

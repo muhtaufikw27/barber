@@ -59,7 +59,7 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">BaBon <span></span></a>
+                <a href="" class="navbar-brand">BaBon <span></span></a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -70,7 +70,7 @@
                         <a href="#about" class="nav-item nav-link">Tentang</a>
                         <a href="#service" class="nav-item nav-link">Pelayanan</a>
                         <a href="#price"class="nav-item nav-link">Harga</a>
-                        <a href="" class="nav-item nav-link">Artikel</a>
+                        <a href="<?= base_url('home/artikel');?>" class="nav-item nav-link">Artikel</a>
                         <a href="<?= base_url('home/shop');?>" class="nav-item nav-link">Pesan</a>  
                         <a href="#contact" class="nav-item nav-link">Kontak</a>
                         <a href="<?= base_url('auth')?>" class="btn btn-outline-light" role="button" aria-pressed="true">Login</a>

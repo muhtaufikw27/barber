@@ -67,15 +67,16 @@
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="" class="nav-item nav-link">Home</a>
+                        <a href="<?= base_url('home')?>" class="nav-item nav-link">Home</a>
                         <a href="#about" class="nav-item nav-link">Tentang</a>
                         <a href="#service" class="nav-item nav-link">Pelayanan</a>
                         <a href="#price"class="nav-item nav-link">Harga</a>
-                        <a href="" class="nav-item nav-link">Artikel</a>
+                        <a href="<?= base_url('home/artikel');?>" class="nav-item nav-link">Artikel</a>
                         <a href="<?= base_url('home/shop');?>" class="nav-item nav-link">Pesan</a>  
                         <a href="#contact" class="nav-item nav-link">Kontak</a>
                 
                     </div>
+                    
                 </div>
             </div>
         </div>
