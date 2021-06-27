@@ -99,4 +99,10 @@ class auth extends MY_Controller {
         $this->session->unset_userdata('role_id');
         redirect('auth');
     }
+    public function forgot(){
+        $data['judul'] = 'Forgot Password';
+        $this->load->view('Template/Header_login', $data);
+        $this->load->view('V_forgotpass');
+        $this->load->view('Template/Footer_login');
+    }
 }

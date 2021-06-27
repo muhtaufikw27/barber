@@ -42,7 +42,6 @@
                                 <div class="form-group">
                                     <label for="as">Login sebagai: </label>
                                     <select name="as" id="as" class="form-control">
-                                        <option value="1">Admin</option>
                                         <option value="2">Barbershop</option>
                                         <option value="3">Customers</option>
                                 </select>

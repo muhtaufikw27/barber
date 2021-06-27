@@ -5,9 +5,9 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
                         <div class="hero-text">
-                            <h1>BarbeRian</h1>
+                            <h1>BaBon</h1>
                             <p>
-                                Mau Cukur? yuk BarbeRian
+                                Mau Cukur? yuk Pesan di BaBon
                                 kami Melayani dengan sepenuh hati
                             </p>
                             
@@ -304,64 +304,6 @@
             </div>
         </div>
         <!-- Testimonial End -->
-
-
-        <!-- Team Start -->
-        <div class="team" id="team">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Barbershop kami </p>
-                    <h2>Bertemu dengan ahli cukur rambut</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="<?php echo base_url()?>assets/img/team-1.jpg" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Muh. Taufik Witri</h2>
-                                <p>Master Barber</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="<?php echo base_url()?>assets/img/team-2.jpg" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Rian</h2>
-                                <p>Ahli Rambut</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="<?php echo base_url()?>assets/img/team-3.jpg" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Sukarman</h2>
-                                <p>Ahli Jenggot</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="<?php echo base_url()?>assets/img/team-4.jpg" alt="Team Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Bambang</h2>
-                                <p>Ahli Warna Rambut</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
         
         
         <!-- Contact Start -->

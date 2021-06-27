@@ -22,6 +22,7 @@
 
         <!-- Template Stylesheet -->
         <link href="<?php echo base_url()?>assets/css/style.css" rel="stylesheet">
+        
     </head>
 
     <body>
@@ -73,8 +74,7 @@
                         <a href="" class="nav-item nav-link">Artikel</a>
                         <a href="<?= base_url('home/shop');?>" class="nav-item nav-link">Pesan</a>  
                         <a href="#contact" class="nav-item nav-link">Kontak</a>
-                        <a href="<?= base_url('auth')?>" class="btn btn-outline-light" role="button" aria-pressed="true">Login</a>
-                        <a href="<?= base_url('auth/registration')?>" class="btn btn-light" role="button" aria-pressed="true">Sign Up</a>
+                
                     </div>
                 </div>
             </div>

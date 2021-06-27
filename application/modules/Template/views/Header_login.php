@@ -25,9 +25,19 @@
 
 </head>
 
-<body class="bg-gradient-primary">
+<body>
     <style>
+        body{
+            background-color: #1d2434;
+        }
+        .p-5{
+            background-color: #bbbaba;
+        }
+        label{
+            color:black;
+        }
         .bg-login-image{
             background-image: url('assets/images/bg.jpg')
         }
+    
     </style>
