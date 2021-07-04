@@ -127,3 +127,4 @@ ERROR - 2021-06-27 15:32:48 --> 404 Page Not Found: /index
 ERROR - 2021-06-27 16:02:45 --> 404 Page Not Found: ../modules/home/controllers/Home/img
 ERROR - 2021-06-27 16:02:45 --> 404 Page Not Found: ../modules/home/controllers/Home/img
 ERROR - 2021-06-27 16:02:47 --> 404 Page Not Found: ../modules/home/controllers/Home/img
+ERROR - 2021-06-27 16:21:30 --> 404 Page Not Found: /index

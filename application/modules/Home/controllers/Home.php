@@ -14,6 +14,12 @@ class Home extends MY_Controller {
 		$this->load->view('content');
 		$this->load->view('footer');
 	}
+	public function stl(){
+		$this->load->view('header_stl');
+		//$this->load->view('nav');
+		$this->load->view('content');
+		$this->load->view('footer');
+	}
 	public function shop(){
 		$this->load->view('header_stl');
 		$this->load->view('service');

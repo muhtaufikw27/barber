@@ -34,7 +34,7 @@ class auth extends MY_Controller {
                         $this->session->set_userdata($data);
                         redirect('dashboard');
                     }else{
-                        redirect('home');
+                        redirect('home/stl');
                     }
                     
                   
