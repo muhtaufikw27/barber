@@ -67,34 +67,26 @@
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="<?= base_url('home')?>" class="nav-item nav-link">Home</a>
-                        <a href="#about" class="nav-item nav-link">Tentang</a>
-                        <a href="#service" class="nav-item nav-link">Pelayanan</a>
-                        <a href="#price"class="nav-item nav-link">Harga</a>
+                        <a href="<?= base_url('home/stl')?>" class="nav-item nav-link">Home</a>
+                        <a href="<?= base_url('home/stl')?>#about" class="nav-item nav-link">Tentang</a>
+                        <a href="<?= base_url('home/stl')?>#service" class="nav-item nav-link">Pelayanan</a>
+                        <a href="<?= base_url('home/stl')?>#price"class="nav-item nav-link">Harga</a>
                         <a href="<?= base_url('home/artikel');?>" class="nav-item nav-link">Artikel</a>
                         <a href="<?= base_url('home/shop');?>" class="nav-item nav-link">Pesan</a>  
                         <a href="#contact" class="nav-item nav-link">Kontak</a>
-                    
+                        
                         <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img class="img-profile rounded-circle" src="<?= base_url('assets/images/default.jpg');?>" style="width:20px">
+                        <img class="img-profile rounded-circle" src="<?= base_url('assets/gambar/profile/'.$users['image'])?>" style="width:20px; height:20px;">
                     </a>
                     <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                         aria-labelledby="userDropdown">
                         <a class="dropdown-item" href="#">
                             <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                            Profile
-                        </a>
-                        <a class="dropdown-item" href="#">
-                            <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                            Settings
-                        </a>
-                        <a class="dropdown-item" href="#">
-                            <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                            Activity Log
+                            <?= $users['name'];?>
                         </a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="<?= base_url('auth/logout');?>" data-toggle="modal" data-target="#logoutModal">
+                        <a class="dropdown-item" href="<?= base_url('auth/logout');?>">
                             <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                             Logout
                         </a>

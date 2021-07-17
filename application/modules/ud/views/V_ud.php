@@ -21,13 +21,13 @@
                                             </div>
                                             <div class="form-group">
                                             <label for="password1">Password</label>
-                                                <input type="text" class="form-control form-control-user"
-                                                    id="password1" name="password1" placeholder="Enter Password..." >
+                                                <input type="password" class="form-control form-control-user"
+                                                    id="password1" name="password1" placeholder="Enter Password..." value="<?= $users['password'] ?>" >
                                             </div>
                                             <div class="form-group">
                                             <label for="password2">Repeat Password</label>
-                                                <input type="text" class="form-control form-control-user"
-                                                    id="password2" name="password2" placeholder="Enter Repeat Password...">
+                                                <input type="password" class="form-control form-control-user"
+                                                    id="password2" name="password2" placeholder="Enter Repeat Password..." value="<?= $users['password'] ?>">
                                             </div>
                                             <div class="form-group">
                                             <label for="name">Nama</label>
@@ -37,9 +37,9 @@
                                             <div class="form-group">
                                                 <label for="as">Login sebagai: </label>
                                                 <select name="as" id="as" class="form-control">
-                                                    <option value="1">Admin</option>
-                                                    <option value="2">Barbershop</option>
-                                                    <option value="3">Customers</option>
+                                                    <option value="admin">Admin</option>
+                                                    <option value="barbershop">Barbershop</option>
+                                                    <option value="costumers">Customers</option>
                                             </select>
                                             </div>
                                 <button type="submit" class="btn btn-primary">Submit</button>

@@ -13,7 +13,6 @@
     <div class="card-header py-3">
     <a href="<?= base_url('tampilkan/tambahdata')?>" class="btn btn-secondary"><i class="fas fa-plus"></i> Tambah</a>
     </div>
-        
     <div class="card-body">
         <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
@@ -23,6 +22,7 @@
                         <th>Email</th>
                         <th>Nama</th>
                         <th>Foto</th>
+                        <th>Role</th>
                         <th>Action</th>
                         
                     </tr>
@@ -38,11 +38,12 @@
                         <td><?= $u['name'] ?></td>
                         <td>
                             <div class="image-wrapper">
-                            <img src="<?= base_url('assets/images/'.$u['image'])?>" style="width:50px;">
+                            <img src="<?= base_url('assets/gambar/profile/'.$u['image'])?>" style="width:50px;">
                             </div>
                         </td>
-                        <td><a href="<?= base_url()?>ud/hapus/<?= $u['id'] ?>" class="btn btn-danger btn"><i class="fas fa-trash-alt"></i> Hapus</a>
-                            <a href="" class="btn btn-warning">Detail</a>
+                        <td><?= $u['role'] ?></td>
+                        <td>
+                            <a href="<?= base_url()?>ud/hapus/<?= $u['id'] ?>" class="btn btn-danger btn"><i class="fas fa-trash-alt"></i> Hapus</a>       
                             <a href="<?= base_url()?>ud/formEdit/<?= $u['id'] ?>" class="btn btn-primary"><i class="fas fa-edit"></i> Ubah</a>
                         </td>
                     </tr>

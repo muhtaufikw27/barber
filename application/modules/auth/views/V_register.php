@@ -15,7 +15,7 @@
                                 <h1 class="h4 text-gray-900 mb-4">Sign Up</h1>
                             </div>
                             
-                            <form class="user" method="post" action="<?= base_url('auth/registration');?>">
+                            <form method="post" action="<?= base_url('auth/registration')?>" enctype="multipart/form-data">
                                 <div class="form-group">
                                 <label for="name">Name</label>
                                     <input type="text" class="form-control form-control-user"
@@ -40,16 +40,21 @@
                                         id="password2" name="password2" placeholder="Enter Repeat Password...">
                                 </div>
                                 <div class="form-group">
+                                <label for="gambar">Upload Gambar</label>
+                                    <input type="file" class="form-control form-control-user"
+                                        id="gambar" name="gambar">
+                                </div>
+                                <div class="form-group">
                                     <label for="as">Login sebagai: </label>
                                     <select name="as" id="as" class="form-control">
-                                        <option value="2">Barbershop</option>
-                                        <option value="3">Customers</option>
+                                        <option value="barbershop">Barbershop</option>
+                                        <option value="costumers">Customers</option>
                                 </select>
                                 </div>
                                 <button type="submit" class="btn btn-primary btn-user btn-block">
                                    Daftar
                                 </button>
-                            </form>
+                            
                             <hr>
                             <div class="text-center">
                                 <a class="small" href="<?= base_url('auth');?>">I have account</a>

@@ -15,7 +15,7 @@ class M_ud extends CI_Model{
             "name" => $this->input->post('name', true),
             "email" => $this->input->post('email', true), //mengamankan data dengan parameter true, pake XSS filter seperti binding
             "password" => password_hash($this->input->post('password1'), PASSWORD_DEFAULT),
-            "role_id" => $this->input->post('as', true)
+            "role" => $this->input->post('as', true)
         ];
         $this->db->where('id', $this->input->post('id'));
         $this->db->update('users', $data);

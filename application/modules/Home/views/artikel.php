@@ -2,46 +2,28 @@
  <div class="service" id="service">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Pelayanan Salon Kami</p>
-                    <h2>Pelayanan Terbaik Salon dan Barbershop</h2>
+                    <p>Artikel</p>
+                    <h2>Tentang Dunia Cukur</h2>
                 </div>
                 <div class="row">
+                <?php
+                $no = 1;
+                foreach ($artikel as $a) :
+                    ?>
                     <div class="col-lg-4 col-md-6">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="<?= base_url('assets/img/service-1.jpg');?>" alt="Image">
+                        <div class="service-item" style="width 500px; height:500px;">
+                            <div class="service">
+                                <img src="<?= base_url('assets/gambar/'.$a['gambar']);?>" alt="Image" style="width:250px; height:300px;">
                             </div>
-                            <h3>Potongan Rambut</h3>
-                            <p>
-                                Potongan rambut yang diberikan adalah potongan rambut terbaik dari barber kami.
-                            </p>
-                            <a class="btn" href="">Pelajari Lebih Lanjut</a>
+                            <h3><?= $a['nama_artikel']?></h3>
+                            <a href="<?= $a['link']?>" class="btn btn-primary">Kunjungi</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="<?= base_url('assets/img/service-2.jpg');?>" alt="Image">
-                            </div>
-                            <h3>Gaya Jenggot</h3>
-                            <p>
-                                Anda bisa memotong jenggot anda dengan model yang anda inginkan
-                            </p>
-                            <a class="btn" href="">Pelajari Lebih Lanjut</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="<?= base_url('assets/img/service-3.jpg');?>" alt="Image">
-                            </div>
-                            <h3>Warnai dan Cuci</h3>
-                            <p>
-                                Anda dapat mewarnai rambut sesuai yang anda inginkan dan Cuci rambut agar rambut bersih.
-                            </p>
-                            <a class="btn" href="">Pelajari Lebih Lanjut</a>
-                        </div>
-                    </div>
+                    
+                
+                        <?php
+                endforeach;
+                ?>
                 </div>
             </div>
         </div>
